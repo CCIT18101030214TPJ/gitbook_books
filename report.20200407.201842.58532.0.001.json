@@ -1,0 +1,465 @@
+
+{
+  "header": {
+    "reportVersion": 1,
+    "event": "Allocation failed - JavaScript heap out of memory",
+    "trigger": "FatalError",
+    "filename": "report.20200407.201842.58532.0.001.json",
+    "dumpEventTime": "2020-04-07T20:18:43Z",
+    "dumpEventTimeStamp": "1586261923095",
+    "processId": 58532,
+    "cwd": "E:\\blog\\myblog\\gitbook_books",
+    "commandLine": [
+      "E:\\移动应用开发\\node.js\\node.exe",
+      "C:\\Users\\Hasee\\AppData\\Roaming\\npm/node_modules/gitbook-cli/bin/gitbook.js",
+      "serve"
+    ],
+    "nodejsVersion": "v12.16.1",
+    "wordSize": 64,
+    "arch": "x64",
+    "platform": "win32",
+    "componentVersions": {
+      "node": "12.16.1",
+      "v8": "7.8.279.23-node.31",
+      "uv": "1.34.0",
+      "zlib": "1.2.11",
+      "brotli": "1.0.7",
+      "ares": "1.15.0",
+      "modules": "72",
+      "nghttp2": "1.40.0",
+      "napi": "5",
+      "llhttp": "2.0.4",
+      "http_parser": "2.9.3",
+      "openssl": "1.1.1d",
+      "cldr": "35.1",
+      "icu": "64.2",
+      "tz": "2019c",
+      "unicode": "12.1"
+    },
+    "release": {
+      "name": "node",
+      "lts": "Erbium",
+      "headersUrl": "https://nodejs.org/download/release/v12.16.1/node-v12.16.1-headers.tar.gz",
+      "sourceUrl": "https://nodejs.org/download/release/v12.16.1/node-v12.16.1.tar.gz",
+      "libUrl": "https://nodejs.org/download/release/v12.16.1/win-x64/node.lib"
+    },
+    "osName": "Windows_NT",
+    "osRelease": "10.0.18362",
+    "osVersion": "Windows 10 Home China",
+    "osMachine": "x86_64",
+    "cpus": [
+      {
+        "model": "Intel(R) Core(TM) i7-8750H CPU @ 2.20GHz",
+        "speed": 2208,
+        "user": 8734843,
+        "nice": 0,
+        "sys": 31951390,
+        "idle": 600896359,
+        "irq": 20631421
+      },
+      {
+        "model": "Intel(R) Core(TM) i7-8750H CPU @ 2.20GHz",
+        "speed": 2208,
+        "user": 6826062,
+        "nice": 0,
+        "sys": 7701265,
+        "idle": 627054671,
+        "irq": 477109
+      },
+      {
+        "model": "Intel(R) Core(TM) i7-8750H CPU @ 2.20GHz",
+        "speed": 2208,
+        "user": 24016000,
+        "nice": 0,
+        "sys": 13103156,
+        "idle": 604462828,
+        "irq": 187375
+      },
+      {
+        "model": "Intel(R) Core(TM) i7-8750H CPU @ 2.20GHz",
+        "speed": 2208,
+        "user": 7382156,
+        "nice": 0,
+        "sys": 4566546,
+        "idle": 629633281,
+        "irq": 60703
+      },
+      {
+        "model": "Intel(R) Core(TM) i7-8750H CPU @ 2.20GHz",
+        "speed": 2208,
+        "user": 11733812,
+        "nice": 0,
+        "sys": 10159812,
+        "idle": 619688359,
+        "irq": 116578
+      },
+      {
+        "model": "Intel(R) Core(TM) i7-8750H CPU @ 2.20GHz",
+        "speed": 2208,
+        "user": 9445312,
+        "nice": 0,
+        "sys": 4591015,
+        "idle": 627545640,
+        "irq": 112734
+      },
+      {
+        "model": "Intel(R) Core(TM) i7-8750H CPU @ 2.20GHz",
+        "speed": 2208,
+        "user": 10743953,
+        "nice": 0,
+        "sys": 7064500,
+        "idle": 623773531,
+        "irq": 131000
+      },
+      {
+        "model": "Intel(R) Core(TM) i7-8750H CPU @ 2.20GHz",
+        "speed": 2208,
+        "user": 4261015,
+        "nice": 0,
+        "sys": 3054812,
+        "idle": 634266140,
+        "irq": 33750
+      },
+      {
+        "model": "Intel(R) Core(TM) i7-8750H CPU @ 2.20GHz",
+        "speed": 2208,
+        "user": 9683343,
+        "nice": 0,
+        "sys": 6697078,
+        "idle": 625201562,
+        "irq": 88671
+      },
+      {
+        "model": "Intel(R) Core(TM) i7-8750H CPU @ 2.20GHz",
+        "speed": 2208,
+        "user": 4293250,
+        "nice": 0,
+        "sys": 3159062,
+        "idle": 634129656,
+        "irq": 158843
+      },
+      {
+        "model": "Intel(R) Core(TM) i7-8750H CPU @ 2.20GHz",
+        "speed": 2208,
+        "user": 6794812,
+        "nice": 0,
+        "sys": 6029953,
+        "idle": 628757187,
+        "irq": 138843
+      },
+      {
+        "model": "Intel(R) Core(TM) i7-8750H CPU @ 2.20GHz",
+        "speed": 2208,
+        "user": 10775546,
+        "nice": 0,
+        "sys": 5872484,
+        "idle": 624933937,
+        "irq": 105875
+      }
+    ],
+    "networkInterfaces": [
+      {
+        "name": "WLAN",
+        "internal": false,
+        "mac": "74:70:fd:39:41:f8",
+        "address": "fe80::f095:35e5:704e:1690",
+        "netmask": "ffff:ffff:ffff:ffff::",
+        "family": "IPv6",
+        "scopeid": 5
+      },
+      {
+        "name": "WLAN",
+        "internal": false,
+        "mac": "74:70:fd:39:41:f8",
+        "address": "192.168.1.100",
+        "netmask": "255.255.255.0",
+        "family": "IPv4"
+      },
+      {
+        "name": "Loopback Pseudo-Interface 1",
+        "internal": true,
+        "mac": "00:00:00:00:00:00",
+        "address": "::1",
+        "netmask": "ffff:ffff:ffff:ffff:ffff:ffff:ffff:ffff",
+        "family": "IPv6",
+        "scopeid": 0
+      },
+      {
+        "name": "Loopback Pseudo-Interface 1",
+        "internal": true,
+        "mac": "00:00:00:00:00:00",
+        "address": "127.0.0.1",
+        "netmask": "255.0.0.0",
+        "family": "IPv4"
+      }
+    ],
+    "host": "DESKTOP-RU0C8GK"
+  },
+  "javascriptStack": {
+    "message": "No stack.",
+    "stack": [
+      "Unavailable."
+    ]
+  },
+  "nativeStack": [
+    {
+      "pc": "0x00007ff6307d19f9",
+      "symbol": "std::basic_ostream<char,std::char_traits<char> >::operator<<+10873"
+    },
+    {
+      "pc": "0x00007ff6307d5e1c",
+      "symbol": "std::basic_ostream<char,std::char_traits<char> >::operator<<+28316"
+    },
+    {
+      "pc": "0x00007ff6307d4dd8",
+      "symbol": "std::basic_ostream<char,std::char_traits<char> >::operator<<+24152"
+    },
+    {
+      "pc": "0x00007ff6308d34cb",
+      "symbol": "v8::base::CPU::has_sse+38363"
+    },
+    {
+      "pc": "0x00007ff6310e9f4e",
+      "symbol": "v8::Isolate::ReportExternalAllocationLimitReached+94"
+    },
+    {
+      "pc": "0x00007ff6310d2021",
+      "symbol": "v8::SharedArrayBuffer::Externalize+833"
+    },
+    {
+      "pc": "0x00007ff630f9e57c",
+      "symbol": "v8::internal::Heap::EphemeronKeyWriteBarrierFromCode+1436"
+    },
+    {
+      "pc": "0x00007ff630fa97d0",
+      "symbol": "v8::internal::Heap::ProtectUnprotectedMemoryChunks+1312"
+    },
+    {
+      "pc": "0x00007ff630fa62f4",
+      "symbol": "v8::internal::Heap::PageFlagsAreConsistent+3204"
+    },
+    {
+      "pc": "0x00007ff630f9bb13",
+      "symbol": "v8::internal::Heap::CollectGarbage+1283"
+    },
+    {
+      "pc": "0x00007ff630f9a184",
+      "symbol": "v8::internal::Heap::AddRetainedMap+2452"
+    },
+    {
+      "pc": "0x00007ff630fbb36d",
+      "symbol": "v8::internal::Factory::NewFillerObject+61"
+    },
+    {
+      "pc": "0x00007ff630d20c51",
+      "symbol": "v8::internal::interpreter::JumpTableTargetOffsets::iterator::operator=+1665"
+    },
+    {
+      "pc": "0x00007ff631534ddd",
+      "symbol": "v8::internal::SetupIsolateDelegate::SetupHeap+546637"
+    },
+    {
+      "pc": "0x00000388bdf3b9bd",
+      "symbol": ""
+    }
+  ],
+  "javascriptHeap": {
+    "totalMemory": 2158223360,
+    "totalCommittedMemory": 2158223360,
+    "usedMemory": 2143044392,
+    "availableMemory": 47703016,
+    "memoryLimit": 2197815296,
+    "heapSpaces": {
+      "read_only_space": {
+        "memorySize": 262144,
+        "committedMemory": 262144,
+        "capacity": 32808,
+        "used": 32808,
+        "available": 0
+      },
+      "new_space": {
+        "memorySize": 8388608,
+        "committedMemory": 8388608,
+        "capacity": 4189824,
+        "used": 1201888,
+        "available": 2987936
+      },
+      "old_space": {
+        "memorySize": 2134786048,
+        "committedMemory": 2134786048,
+        "capacity": 2131313000,
+        "used": 2130379680,
+        "available": 933320
+      },
+      "code_space": {
+        "memorySize": 1740800,
+        "committedMemory": 1740800,
+        "capacity": 1420896,
+        "used": 1420896,
+        "available": 0
+      },
+      "map_space": {
+        "memorySize": 4460544,
+        "committedMemory": 4460544,
+        "capacity": 1527040,
+        "used": 1527040,
+        "available": 0
+      },
+      "large_object_space": {
+        "memorySize": 8536064,
+        "committedMemory": 8536064,
+        "capacity": 8479296,
+        "used": 8479296,
+        "available": 0
+      },
+      "code_large_object_space": {
+        "memorySize": 49152,
+        "committedMemory": 49152,
+        "capacity": 2784,
+        "used": 2784,
+        "available": 0
+      },
+      "new_large_object_space": {
+        "memorySize": 0,
+        "committedMemory": 0,
+        "capacity": 4189824,
+        "used": 0,
+        "available": 4189824
+      }
+    }
+  },
+  "resourceUsage": {
+    "userCpuSeconds": 420,
+    "kernelCpuSeconds": 271.453,
+    "cpuConsumptionPercent": 5.26821,
+    "maxRss": 3209220096,
+    "pageFaults": {
+      "IORequired": 4452979,
+      "IONotRequired": 0
+    },
+    "fsActivity": {
+      "reads": 7810,
+      "writes": 1964
+    }
+  },
+  "libuv": [
+  ],
+  "environmentVariables": {
+    "=::": "::\\",
+    "ACLOCAL_PATH": "E:\\移动应用开发\\git安装包\\Git\\mingw64\\share\\aclocal;E:\\移动应用开发\\git安装包\\Git\\usr\\share\\aclocal",
+    "ALLUSERSPROFILE": "C:\\ProgramData",
+    "APPDATA": "C:\\Users\\Hasee\\AppData\\Roaming",
+    "CLASSPATH": "F:\\Program Files\\JAVA\\jdk1.8.0_221;F:\\Program Files\\JAVA\\jdk1.8.0_221\\lib;",
+    "COMMONPROGRAMFILES": "C:\\Program Files\\Common Files",
+    "COMPUTERNAME": "DESKTOP-RU0C8GK",
+    "COMSPEC": "C:\\WINDOWS\\system32\\cmd.exe",
+    "CONFIG_SITE": "E:/移动应用开发/git安装包/Git/mingw64/etc/config.site",
+    "CommonProgramFiles(x86)": "C:\\Program Files (x86)\\Common Files",
+    "CommonProgramW6432": "C:\\Program Files\\Common Files",
+    "DISPLAY": "needs-to-be-defined",
+    "DriverData": "C:\\Windows\\System32\\Drivers\\DriverData",
+    "EXEPATH": "E:\\移动应用开发\\git安装包\\Git",
+    "HOME": "C:\\Users\\Hasee",
+    "HOMEDRIVE": "C:",
+    "HOMEPATH": "\\Users\\Hasee",
+    "HOSTNAME": "DESKTOP-RU0C8GK",
+    "INFOPATH": "E:\\移动应用开发\\git安装包\\Git\\usr\\local\\info;E:\\移动应用开发\\git安装包\\Git\\usr\\share\\info;E:\\移动应用开发\\git安装包\\Git\\usr\\info;E:\\移动应用开发\\git安装包\\Git\\share\\info",
+    "JAVA_HOME": "F:\\Program Files\\JAVA\\jdk1.8.0_221",
+    "LANG": "zh_CN.UTF-8",
+    "LOCALAPPDATA": "C:\\Users\\Hasee\\AppData\\Local",
+    "LOGONSERVER": "\\\\DESKTOP-RU0C8GK",
+    "MANPATH": "E:\\移动应用开发\\git安装包\\Git\\mingw64\\local\\man;E:\\移动应用开发\\git安装包\\Git\\mingw64\\share\\man;E:\\移动应用开发\\git安装包\\Git\\usr\\local\\man;E:\\移动应用开发\\git安装包\\Git\\usr\\share\\man;E:\\移动应用开发\\git安装包\\Git\\usr\\man;E:\\移动应用开发\\git安装包\\Git\\share\\man",
+    "MINGW_CHOST": "x86_64-w64-mingw32",
+    "MINGW_PACKAGE_PREFIX": "mingw-w64-x86_64",
+    "MINGW_PREFIX": "E:/移动应用开发/git安装包/Git/mingw64",
+    "MSYSTEM": "MINGW64",
+    "MSYSTEM_CARCH": "x86_64",
+    "MSYSTEM_CHOST": "x86_64-w64-mingw32",
+    "MSYSTEM_PREFIX": "E:/移动应用开发/git安装包/Git/mingw64",
+    "NUMBER_OF_PROCESSORS": "12",
+    "ORIGINAL_PATH": "E:\\移动应用开发\\git安装包\\Git\\mingw64\\bin;E:\\移动应用开发\\git安装包\\Git\\usr\\bin;C:\\Users\\Hasee\\bin;F:\\Program Files\\Java\\jdk1.8.0_221\\bin;F:\\Program Files\\JAVA\\jdk1.8.0_221\\bin;C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0;C:\\WINDOWS\\System32\\OpenSSH;E:\\移动应用开发\\node.js;E:\\移动应用开发\\git安装包\\Git\\cmd;C:\\Program Files (x86)\\Calibre2;C:\\Users\\Hasee\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Program Files\\Bandizip;C:\\Users\\Hasee\\AppData\\Roaming\\npm;C:\\Program Files (x86)\\Calibre2",
+    "ORIGINAL_TEMP": "C:/Users/Hasee/AppData/Local/Temp",
+    "ORIGINAL_TMP": "C:/Users/Hasee/AppData/Local/Temp",
+    "OS": "Windows_NT",
+    "OneDrive": "C:\\Users\\Hasee\\OneDrive",
+    "PATH": "C:\\Users\\Hasee\\bin;E:\\移动应用开发\\git安装包\\Git\\mingw64\\bin;E:\\移动应用开发\\git安装包\\Git\\usr\\local\\bin;E:\\移动应用开发\\git安装包\\Git\\usr\\bin;E:\\移动应用开发\\git安装包\\Git\\usr\\bin;E:\\移动应用开发\\git安装包\\Git\\mingw64\\bin;E:\\移动应用开发\\git安装包\\Git\\usr\\bin;C:\\Users\\Hasee\\bin;F:\\Program Files\\Java\\jdk1.8.0_221\\bin;F:\\Program Files\\JAVA\\jdk1.8.0_221\\bin;C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0;C:\\WINDOWS\\System32\\OpenSSH;E:\\移动应用开发\\node.js;E:\\移动应用开发\\git安装包\\Git\\cmd;C:\\Program Files (x86)\\Calibre2;C:\\Users\\Hasee\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Program Files\\Bandizip;C:\\Users\\Hasee\\AppData\\Roaming\\npm;C:\\Program Files (x86)\\Calibre2;E:\\移动应用开发\\git安装包\\Git\\usr\\bin\\vendor_perl;E:\\移动应用开发\\git安装包\\Git\\usr\\bin\\core_perl",
+    "PATHEXT": ".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC",
+    "PKG_CONFIG_PATH": "E:\\移动应用开发\\git安装包\\Git\\mingw64\\lib\\pkgconfig;E:\\移动应用开发\\git安装包\\Git\\mingw64\\share\\pkgconfig",
+    "PLINK_PROTOCOL": "ssh",
+    "PROCESSOR_ARCHITECTURE": "AMD64",
+    "PROCESSOR_IDENTIFIER": "Intel64 Family 6 Model 158 Stepping 10, GenuineIntel",
+    "PROCESSOR_LEVEL": "6",
+    "PROCESSOR_REVISION": "9e0a",
+    "PROGRAMFILES": "C:\\Program Files",
+    "PSModulePath": "C:\\Program Files\\WindowsPowerShell\\Modules;C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules",
+    "PUBLIC": "C:\\Users\\Public",
+    "PWD": "E:/blog/myblog/gitbook_books",
+    "ProgramData": "C:\\ProgramData",
+    "ProgramFiles(x86)": "C:\\Program Files (x86)",
+    "ProgramW6432": "C:\\Program Files",
+    "QUARTUS_ROOTDIR": "C:\\altera\\13.1\\quartus",
+    "SESSIONNAME": "Console",
+    "SHELL": "E:\\移动应用开发\\git安装包\\Git\\usr\\bin\\bash.exe",
+    "SHLVL": "2",
+    "SOPC_KIT_NIOS2": "C:\\altera\\13.1\\nios2eds",
+    "SSH_ASKPASS": "E:/移动应用开发/git安装包/Git/mingw64/libexec/git-core/git-gui--askpass",
+    "SYSTEMDRIVE": "C:",
+    "SYSTEMROOT": "C:\\WINDOWS",
+    "TEMP": "C:\\Users\\Hasee\\AppData\\Local\\Temp",
+    "TERM": "xterm",
+    "TMP": "C:\\Users\\Hasee\\AppData\\Local\\Temp",
+    "TMPDIR": "C:\\Users\\Hasee\\AppData\\Local\\Temp",
+    "USERDOMAIN": "DESKTOP-RU0C8GK",
+    "USERDOMAIN_ROAMINGPROFILE": "DESKTOP-RU0C8GK",
+    "USERNAME": "Hasee",
+    "USERPROFILE": "C:\\Users\\Hasee",
+    "WINDIR": "C:\\WINDOWS",
+    "_": "E:/移动应用开发/node.js/node"
+  },
+  "sharedObjects": [
+    "E:\\移动应用开发\\node.js\\node.exe",
+    "C:\\WINDOWS\\SYSTEM32\\ntdll.dll",
+    "C:\\WINDOWS\\System32\\KERNEL32.DLL",
+    "C:\\WINDOWS\\System32\\KERNELBASE.dll",
+    "C:\\WINDOWS\\System32\\WS2_32.dll",
+    "C:\\WINDOWS\\System32\\RPCRT4.dll",
+    "C:\\WINDOWS\\SYSTEM32\\dbghelp.dll",
+    "C:\\WINDOWS\\System32\\PSAPI.DLL",
+    "C:\\WINDOWS\\System32\\ucrtbase.dll",
+    "C:\\WINDOWS\\System32\\ADVAPI32.dll",
+    "C:\\WINDOWS\\System32\\msvcrt.dll",
+    "C:\\WINDOWS\\System32\\sechost.dll",
+    "C:\\WINDOWS\\System32\\USER32.dll",
+    "C:\\WINDOWS\\SYSTEM32\\IPHLPAPI.DLL",
+    "C:\\WINDOWS\\SYSTEM32\\USERENV.dll",
+    "C:\\WINDOWS\\System32\\win32u.dll",
+    "C:\\WINDOWS\\System32\\profapi.dll",
+    "C:\\WINDOWS\\System32\\GDI32.dll",
+    "C:\\WINDOWS\\System32\\gdi32full.dll",
+    "C:\\WINDOWS\\System32\\msvcp_win.dll",
+    "C:\\WINDOWS\\System32\\CRYPT32.dll",
+    "C:\\WINDOWS\\System32\\MSASN1.dll",
+    "C:\\WINDOWS\\System32\\bcrypt.dll",
+    "C:\\WINDOWS\\SYSTEM32\\WINMM.dll",
+    "C:\\WINDOWS\\SYSTEM32\\WINMMBASE.dll",
+    "C:\\WINDOWS\\System32\\cfgmgr32.dll",
+    "C:\\WINDOWS\\System32\\bcryptPrimitives.dll",
+    "C:\\WINDOWS\\System32\\IMM32.DLL",
+    "C:\\WINDOWS\\System32\\powrprof.dll",
+    "C:\\WINDOWS\\System32\\UMPDC.dll",
+    "C:\\WINDOWS\\SYSTEM32\\CRYPTBASE.DLL",
+    "C:\\WINDOWS\\system32\\uxtheme.dll",
+    "C:\\WINDOWS\\System32\\combase.dll",
+    "C:\\WINDOWS\\system32\\mswsock.dll",
+    "C:\\WINDOWS\\System32\\kernel.appcore.dll",
+    "C:\\WINDOWS\\System32\\NSI.dll",
+    "C:\\WINDOWS\\SYSTEM32\\dhcpcsvc6.DLL",
+    "C:\\WINDOWS\\SYSTEM32\\dhcpcsvc.DLL",
+    "C:\\WINDOWS\\SYSTEM32\\DNSAPI.dll",
+    "C:\\WINDOWS\\system32\\napinsp.dll",
+    "C:\\WINDOWS\\system32\\pnrpnsp.dll",
+    "C:\\WINDOWS\\System32\\winrnr.dll",
+    "C:\\WINDOWS\\system32\\NLAapi.dll",
+    "C:\\WINDOWS\\system32\\wshbth.dll"
+  ]
+}
